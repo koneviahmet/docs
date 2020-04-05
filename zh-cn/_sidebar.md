@@ -2,7 +2,7 @@
   - [home]()
 
 
-- Getting started
+- Getting chine
 
   - [ahmet](ahmet/deneme.md#baslik1)
   - [ahmet2](ahmet/deneme.md#baslik2)
