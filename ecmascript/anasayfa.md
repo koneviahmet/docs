@@ -1,0 +1,1 @@
+ECMAScript araçtır buraya yaz

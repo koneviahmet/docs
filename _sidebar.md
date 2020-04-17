@@ -2,32 +2,31 @@
   - [home]()
 
 
-- Getting started
 
-  - [ahmet](ahmet/deneme.md#baslik1)
-  - [ahmet2](ahmet/deneme.md#baslik2)
+- React
+  - [Kaynaklar](react/kaynaklar.md)
+  - [Paketler](react/paketler.md)
+  - [Kurulum](react/kurulum.md)
+  - [jsx](react/jsx.md)
+  - [props](react/probs.md)
+  - [state](react/state.md)
+  - [Companenet yaşam döngüsü](react/companentyasamdongusu.md)
+  - [Eventler](react/eventler.md)
+  - [Render](react/render.md)
+  - [Mantıksal Opratorler](react/mantiksaloparatorlar.md)
+  - [Listeler](react/listeler.md)
+  - [Form](react/form.md)
+  - [Import](react/import.md)
+  - [lazy routers](react/routes.md)
+  - [Fragment](react/fragment.md)
+  - [Hooklar](react/hook.md)
+  - [context*](react/context.md)
 
-- syntax
-   - [syntax](syntax.md)
+- React Paketler
+  - [Formik](formik/anasayfa.md)
 
-- Customization
+- Next.js
+  - [Kaynaklar](nextjs/kaynaklar.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-
-- Guide
-
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
-
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- ECMAScript
+  - [Ana Sayfa](ecmascript/anasayfa.md)
