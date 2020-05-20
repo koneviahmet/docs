@@ -84,7 +84,7 @@ yazınca çalışıyor anladığım kadarıyla aynı paket
 ## chunk
 verilen diziyi gruplandırırı
 
-```javascript
+```jst
 _.chunk(['a', 'b', 'c', 'd'], 2);
 // => [['a', 'b'], ['c', 'd']]
 
@@ -95,7 +95,7 @@ _.chunk(['a', 'b', 'c', 'd'], 3);
 ## compact
 false, null, 0, "", undefined, ve NaN gibi değerleri temizler
 
-```javascrip
+```js
 _.compact([0, 1, false, 2, '', 3]);
 // => [1, 2, 3]
 ```
@@ -104,7 +104,7 @@ _.compact([0, 1, false, 2, '', 3]);
 ## concat
 iki diziyi birleştirir
 
-```javascrip
+```js
 var array = [1];
 var other = _.concat(array, 2, [3], [[4]]);
 
@@ -119,7 +119,7 @@ console.log(array);
 ## difference
 birinci diziyi referans alarak ikinci dizi ile ortak olmayanları yeni bir diziye aktarır.
 
-```javascrip
+```js
 _.difference([2, 1], [2, 3]);
 // => [1]
 ```
@@ -128,7 +128,7 @@ _.difference([2, 1], [2, 3]);
 ## drop
 n kadar öğeyi baştan başlayarak siler
 
-```javascrip
+```js
 _.drop([1, 2, 3]);
 // => [2, 3]
 
@@ -142,7 +142,7 @@ _.drop([1, 2, 3], 2);
 ## dropRighy
 n kadar öğeyi sondan başlayarak siler
 
-```javascrip
+```js
 _.dropRight([1, 2, 3]);
 // => [1, 2]
 
@@ -154,7 +154,7 @@ _.dropRight([1, 2, 3], 2);
 ## dropRightWhile
 sondan başlayarak dizi içinde arama yapar ve kriterlere uyanları yeni dizi oluşturur
 
-```javascrip
+```js
 var users = [
   { 'user': 'barney',  'active': true },
   { 'user': 'fred',    'active': false },
@@ -183,7 +183,7 @@ _.dropRightWhile(users, 'active');
 baştan başlayarak dizi içinde arama yapar ve kriterlere uyanları yeni dizi oluşturur
 
 
-```javascrip
+```js
 var users = [
   { 'user': 'barney',  'active': false },
   { 'user': 'fred',    'active': false },
@@ -209,7 +209,7 @@ _.dropWhile(users, 'active');
 ## fill
 diziyi istenilen değerle doldurur
 
-```javascrip
+```js
 var array = [1, 2, 3];
 
 _.fill(array, 'a');
@@ -227,7 +227,7 @@ _.fill([4, 6, 8, 10], '*', 1, 3);
 ## findIndex
 dizide aranan değerin index ini döndürüyor
 
-```javascrip
+```js
 var users = [
   { 'user': 'barney',  'active': false },
   { 'user': 'fred',    'active': false },
@@ -258,7 +258,7 @@ yukarıdakinin aynısı ancak sondan başlayarak arıyor.
 ## flatten
 diziyi düzleştirir
 
-```javascrip
+```js
 _.flatten([1, [2, [3, [4]], 5]]);
 // => [1, 2, [3, [4]], 5]
 ```
@@ -266,7 +266,7 @@ _.flatten([1, [2, [3, [4]], 5]]);
 ## flattenDeep
 diziyi sonuna kadar düzleştirir
 
-```javascrip
+```js
 _.flattenDeep([1, [2, [3, [4]], 5]]);
 // => [1, 2, 3, 4, 5]
 ```
@@ -274,7 +274,7 @@ _.flattenDeep([1, [2, [3, [4]], 5]]);
 ## fromPairs
 ikili grupları anahtar değer nesnesine dönüştürür
 
-```javascrip
+```js
 _.fromPairs([['a', 1], ['b', 2]]);
 // => { 'a': 1, 'b': 2 }
 ```
@@ -282,7 +282,7 @@ _.fromPairs([['a', 1], ['b', 2]]);
 ## head
 dizinin ilk öğesini alır
 
-```javascrip
+```js
 _.head([1, 2, 3]);
 // => 1
 ```
@@ -292,7 +292,7 @@ _.head([1, 2, 3]);
 ## indexOf
 dizide istenilen değerin indexini alır
 
-```javascrip
+```js
 _.indexOf([1, 2, 1, 2], 2);
 // => 1
 
@@ -304,7 +304,7 @@ _.indexOf([1, 2, 1, 2], 2, 2);
 ## initial
 dizinin son öğesi hariç hepsini alır
 
-```javascrip
+```js
 _.initial([1, 2, 3]);
 // => [1, 2]
 ```
@@ -313,7 +313,7 @@ _.initial([1, 2, 3]);
 ## intersection
 iki dizide var olan ortak değerleri alır
 
-```javascrip
+```js
 _.intersection([2, 1], [2, 3]);
 // => [2]
 ```
@@ -323,7 +323,7 @@ _.intersection([2, 1], [2, 3]);
 ## intersectionBy
 float değerlerden virgülden sonraya bakmadan ortak olanları alır
 
-```javascrip
+```js
 _.intersectionBy([2.1, 1.2], [2.3, 3.4], Math.floor);
 // => [2.1]
 
@@ -336,7 +336,7 @@ _.intersectionBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
 ## join
 implode ile aynı işi yapıyor. diziyi string değere dönüştürüyor
 
-```javascrip
+```js
 _.join(['a', 'b', 'c'], '~');
 // => 'a~b~c'
 ```
@@ -345,14 +345,14 @@ _.join(['a', 'b', 'c'], '~');
 ## last
 dizinin son elemanını alır.
 
-```javascrip
+```js
 _.last([1, 2, 3]);
 // => 3
 ```
 
 ## lastIndexOf
 bu eleman indexOf ile aynıdır belirtilen bir elemanın indexini varir ancak bunu yapmaya sondan başlar
-```javascrip
+```js
 _.lastIndexOf([1, 2, 1, 2], 2);
 // => 3
 
@@ -364,7 +364,7 @@ _.lastIndexOf([1, 2, 1, 2], 2, 2);
 ## nth
 dizinin n inci elemanını alır. n index olarak verilecek. eksi verilirse sondan almaya başlar.
 
-```javascrip
+```js
 var array = ['a', 'b', 'c', 'd'];
 
 _.nth(array, 1);
@@ -379,7 +379,7 @@ istenilen değerleri diziden kaldırır. siler
 pullAllBy => kaldırma işleminde anahar ilişkisine bakıyor.
 pullAt    => index kullanarak kaldırma işlemi yapar ve kaldırdığı elemanları döner.
 
-```javascrip
+```js
 var array = ['a', 'b', 'c', 'a', 'b', 'c'];
 
 _.pull(array, 'a', 'c');
@@ -387,7 +387,7 @@ console.log(array);
 // => ['b', 'b']
 ```
 
-```javascrip
+```js
 var array = ['a', 'b', 'c', 'd'];
 var pulled = _.pullAt(array, [1, 3]);
 
@@ -401,7 +401,7 @@ console.log(pulled);
 ## remove
 bir callback fonksiyonu sayesinde şarta uyan değerleri siler ve geriye silmediklerini döndürür.
 
-```javascrip
+```js
 var array = [1, 2, 3, 4];
 var evens = _.remove(array, function(n) {
   return n % 2 == 0;
@@ -418,7 +418,7 @@ console.log(evens);
 ## reverse
 diziyi tersine çevirir.
 
-```javascrip
+```js
 var array = [1, 2, 3];
 
 _.reverse(array);
@@ -432,7 +432,7 @@ console.log(array);
 ## slice
 diziyi indexlerine göre parçalar slice=> bölmek
 
-```javascrip
+```js
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
@@ -451,7 +451,7 @@ console.log(animals.slice(1, 5));
 => sortedLastIndex is büyük kaçtane var ona bakıyor
 küçük kaçtane var ona bakıyor
 
-```javascrip
+```js
 _.sortedIndex([30, 50], 60);
 //60 tan küçük 2 tane olduğu için değer 2 olacak
 ```
@@ -462,7 +462,7 @@ tekrar eden elementleri (aynı)  diziden çıkartır .uniq gibi
 sortedUniqBy => floor larda kullanılabilir.
 
 
-```javascrip
+```js
 _.sortedUniq([1, 1, 2]);
 // => [1, 2]
 ```
@@ -474,7 +474,7 @@ _.sortedUniq([1, 1, 2]);
 ## tail
 dizinin ilk öğesi hariç diğerlerini alır.
 
-```javascrip
+```js
 _.tail([1, 2, 3]);
 // => [2, 3]
 ```
@@ -484,7 +484,7 @@ _.tail([1, 2, 3]);
 slice gibi diziyi istenilen kadar parçalara ayırır. bunu baştan başlayarak yapar
 takeRight => aynı işi sondan başlayarak yapar
 
-```javascrip
+```js
 _.take([1, 2, 3]);
 // => [1]
 
@@ -502,7 +502,7 @@ _.take([1, 2, 3], 0);
 çoklu dizi içinde istenilen değerleri alarak yeni bir dizi oluşturur.
 takeRightWhile => tersten yapar
 
-```javascrip
+```js
 var users = [
   { 'user': 'barney',  'active': false },
   { 'user': 'fred',    'active': false },
@@ -530,7 +530,7 @@ _.takeWhile(users, 'active');
 ## union, unionBy
 benzer elemanları silerek benzersiz hale getirir.
 
-```javascrip
+```js
 _.union([2], [1, 2]);
 // => [2, 1]
 
@@ -545,7 +545,7 @@ _.unionBy([{ 'x': 1 }], [{ 'x': 2 }, { 'x': 1 }], 'x');
 ## uniq, uniqBy
 tekrar eden elemanları siler
 
-```javascrip
+```js
 _.uniq([2, 1, 2]);
 // => [2, 1]
 
@@ -561,7 +561,7 @@ _.uniqBy([{ 'x': 1 }, { 'x': 2 }, { 'x': 1 }], 'x');
 Tekrar etmeyen elemanları alır
 
 
-```javascrip
+```js
 _.without([2, 1, 2, 3], 1, 2);
 // => [3]
 ```
@@ -570,7 +570,7 @@ _.without([2, 1, 2, 3], 1, 2);
 ## xor, xorby
 Tekrar etmeyen değerleri alır
 
-```javascrip
+```js
 _.xor([2, 1], [2, 3]);
 // => [1, 3]
 
@@ -582,7 +582,7 @@ _.xorBy([2.1, 1.2], [2.3, 3.4], Math.floor);
 ## taslak
 açıklama
 
-```javascrip
+```js
 #buraya kod
 ```
 
@@ -593,7 +593,7 @@ açıklama
 ## taslak
 açıklama
 
-```javascrip
+```js
 #buraya kod
 ```
 

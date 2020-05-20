@@ -11,6 +11,10 @@
 - node-paketler
   - [Loadsh](node-paketler/lodash.md)
   - [Loadsh-Colleciton](node-paketler/lodash-collection.md)
+  - [Loadsh-Function](node-paketler/lodash-function.md)
+  - [Loadsh-lang](node-paketler/lodash-lang.md)
+  - [Loadsh-math](node-paketler/lodash-math.md)
+  - [Loadsh-string](node-paketler/lodash-string.md)
 
 - nodejs
  - [Kaynaklar](nodejs/kaynaklar.md)
