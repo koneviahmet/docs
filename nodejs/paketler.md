@@ -18,3 +18,9 @@ globale kurmak mantıklıdır.
 
 ## express
 [express](nodejs/express.md)
+
+
+## lodash
+İçinde bir çok kütühaneyi barındıran lodash ile json datalar üzerinde arama, sıralama, silme gibi bir çok operasyonu rahatlıkla yapabilirsiniz.
+
+https://lodash.com/docs/4.17.15#zip

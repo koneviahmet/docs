@@ -1,6 +1,17 @@
 - Home
   - [home]()
 
+- Ubuntu
+ - [Php](ubuntu/php.md)
+ - [Komutlar](ubuntu/komutlar.md)
+
+- Tasarım
+  - [Framework](tasarim/framework.md)
+
+- node-paketler
+  - [Loadsh](node-paketler/lodash.md)
+  - [Loadsh-Colleciton](node-paketler/lodash-collection.md)
+
 - nodejs
  - [Kaynaklar](nodejs/kaynaklar.md)
  - [Paketler](nodejs/paketler.md)
