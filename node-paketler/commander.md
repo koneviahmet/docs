@@ -8,7 +8,7 @@ yukarıdaki komutun yaz kısmını aktif hale getirir.
 
 topla diyebilmemiz ve sistemin bunu algılaması için commander diye bir eklenti ekliyoruz.
 burada commanderi dışarıdan dahil ettiğim için globale kaydetmelimiyim pek bilemedim
-> npm i commander
+> npm i commander --save
 
 index.js ye aşağıdaki kodu eklicez
 

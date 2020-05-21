@@ -11,12 +11,16 @@
 - node-paketler
   - [Paket Yapma](node-paketler/paket-yapma.md)
   - [Commander](node-paketler/commander.md)
+  - [Prompts cli select](node-paketler/prompts.md)
+  - [pdfmake](node-paketler/pdfmake.md)
   - [Loadsh](node-paketler/lodash.md)
   - [Loadsh-Colleciton](node-paketler/lodash-collection.md)
   - [Loadsh-Function](node-paketler/lodash-function.md)
   - [Loadsh-lang](node-paketler/lodash-lang.md)
   - [Loadsh-math](node-paketler/lodash-math.md)
   - [Loadsh-string](node-paketler/lodash-string.md)
+  - [image-to-base64](node-paketler/image-to-base64.md)
+
 
 - nodejs
  - [Kaynaklar](nodejs/kaynaklar.md)
