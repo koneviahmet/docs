@@ -8,11 +8,17 @@
 - Tasarım
   - [Framework](tasarim/framework.md)
 
+
 - node-paketler
   - [Paket Yapma](node-paketler/paket-yapma.md)
+  - [dotenv](node-paketler/dotenv.md)
   - [Commander](node-paketler/commander.md)
   - [Prompts cli select](node-paketler/prompts.md)
   - [pdfmake](node-paketler/pdfmake.md)
+  - [cors](node-paketler/cors.md)
+  - [fs-extra](node-paketler/fs-extra.md)
+  - [momentjs](node-paketler/momentjs.md)
+  - [glob](node-paketler/glob.md)
   - [Loadsh](node-paketler/lodash.md)
   - [Loadsh-Colleciton](node-paketler/lodash-collection.md)
   - [Loadsh-Function](node-paketler/lodash-function.md)
@@ -24,6 +30,7 @@
 
 - nodejs
  - [Kaynaklar](nodejs/kaynaklar.md)
+ - [base64](nodejs/base64.md)
  - [Paketler](nodejs/paketler.md)
  - [Komutlar](nodejs/komutlar.md)
  - [Çok kullanılan Kodlar](nodejs/pratikKodlar.md)

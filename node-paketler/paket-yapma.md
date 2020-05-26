@@ -36,3 +36,11 @@ söz dizilimi hatası verecek onu düzeltmek için index.js nin üst kısmına d
 #!/usr/bin/env node
 console.log("nerhaba dünya");
 ```
+
+
+## önemli
+yaptığın paketi başka bir dizinde açtığın zaman o dizinin url ini almak için kullanılacak kod
+
+```js
+let dizin = process.env.PWD;
+```

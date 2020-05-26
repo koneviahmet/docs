@@ -8,6 +8,33 @@ const fileName = __filename;
 const dir = __dirname;
 ```
 
+## dizin oluşturma
+```js
+fs.mkdir('deneme', { recursive: true }, (err) => {
+  if (err) throw err;
+});
+```
+
+## kopyalama
+```js
+fs.copyFile(dir + '/copy/package.json', 'package.json', (err) => {
+  if(err) throw err;
+
+  console.log("kopyalama tamam");
+});
+```
+
+## dosya oluşturma
+```js
+/* dosya ekleme */
+fs.appendFile('newfile_2.txt', 'Learn Node FS module', function (err) {
+  if (err) throw err;
+  console.log('File is created successfully.');
+})
+```
+
+
+
 ## dosya okuma
 ```javascript
 const fs = require('fs');
