@@ -8,6 +8,12 @@
 - Tasarım
   - [Framework](tasarim/framework.md)
 
+- Android Studio
+  - [kurulum](android/kurulum.md)
+
+- react-native
+  - [kurulum](react-native/kurulum.md)
+
 
 - node-paketler
   - [Paket Yapma](node-paketler/paket-yapma.md)
@@ -19,6 +25,8 @@
   - [fs-extra](node-paketler/fs-extra.md)
   - [momentjs](node-paketler/momentjs.md)
   - [glob](node-paketler/glob.md)
+  - [uuid](node-paketler/uuid.md)
+  - [html-json](node-paketler/html-json.md)
   - [Loadsh](node-paketler/lodash.md)
   - [Loadsh-Colleciton](node-paketler/lodash-collection.md)
   - [Loadsh-Function](node-paketler/lodash-function.md)
