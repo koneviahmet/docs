@@ -1,18 +1,44 @@
 - Home
   - [home]()
-
+- Python
+  - [jupyter](python/jupyter.md)
+  - [kaynaklar](python/kaynaklar.md)
 - Ubuntu
  - [Php](ubuntu/php.md)
  - [Komutlar](ubuntu/komutlar.md)
-
+ - [sh](ubuntu/sh.md)
+- Docker
+ - [kurulum](docker/kurulum.md)
+ - [alıntı](docker/alinti.md)
+ - [komutlar](docker/komutlar.md)
+ - [imagesolusturma](docker/imagesolusturma.md)
+ - [redis](docker/redis.md)
+ - [nextcloud](docker/nextcloud.md)
 - Tasarım
   - [Framework](tasarim/framework.md)
-
 - Android Studio
   - [kurulum](android/kurulum.md)
-
 - react-native
   - [kurulum](react-native/kurulum.md)
+- React
+  - [Kaynaklar](react/kaynaklar.md)
+  - [Paketler](react/paketler.md)
+  - [Kurulum](react/kurulum.md)
+  - [async](react/async.md)
+  - [jsx](react/jsx.md)
+  - [props](react/probs.md)
+  - [state](react/state.md)
+  - [Companenet yaşam döngüsü](react/companentyasamdongusu.md)
+  - [Eventler](react/eventler.md)
+  - [Render](react/render.md)
+  - [Mantıksal Opratorler](react/mantiksaloparatorlar.md)
+  - [Listeler](react/listeler.md)
+  - [Form](react/form.md)
+  - [Import](react/import.md)
+  - [lazy routers](react/routes.md)
+  - [Fragment](react/fragment.md)
+  - [Hooklar](react/hook.md)
+  - [context*](react/context.md)
 
 
 - node-paketler
@@ -52,24 +78,7 @@
  - [Uzun Dosya İndirme](nodejs/uzundosyaindirme.md)
  - [express](nodejs/express.md)
 
-- React
-  - [Kaynaklar](react/kaynaklar.md)
-  - [Paketler](react/paketler.md)
-  - [Kurulum](react/kurulum.md)
-  - [jsx](react/jsx.md)
-  - [props](react/probs.md)
-  - [state](react/state.md)
-  - [Companenet yaşam döngüsü](react/companentyasamdongusu.md)
-  - [Eventler](react/eventler.md)
-  - [Render](react/render.md)
-  - [Mantıksal Opratorler](react/mantiksaloparatorlar.md)
-  - [Listeler](react/listeler.md)
-  - [Form](react/form.md)
-  - [Import](react/import.md)
-  - [lazy routers](react/routes.md)
-  - [Fragment](react/fragment.md)
-  - [Hooklar](react/hook.md)
-  - [context*](react/context.md)
+
 
 - React Paketler
   - [Formik](formik/anasayfa.md)

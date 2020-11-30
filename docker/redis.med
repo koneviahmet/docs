@@ -1,0 +1,26 @@
+# redis
+
+container kurma
+> docker pull redis
+
+imag oluşturma
+
+redis portu: 6379
+
+> docker run --rm -i -t -p 6379:6379 --name=a-redit redis redis-server --appendonly yes
+
+başka bir çalıştırma komutu
+
+> docker run -p 6379:6379 --name redisserver --rm redis
+
+redis tool indirmek için
+> sudo snap install redis-desktop-manager
+
+
+# ikinci bir yönetem
+> sudo docker run --name a-redis  -d redis
+
+> sudo docker run --name my-redis-application --link my-redis-container:redis -d centos
+
+clia ya bağlanıyor
+> sudo docker run -it --name my-redis-cli --link my-redis-container:redis --rm redis redis-cli -h redis -p 6379
